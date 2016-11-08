@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Trebuchet MS', Helvetica, Sans-serif;
+	color: #402B00;
+	text-align: center;
+	background: radial-gradient(white, #EED090 90%);
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 215px;
+}
+
+table, td {
+	border-collapse: collapse;
+}
+
+td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	height: 19px;
+	line-height: 19px;
+	text-align: center;
+}
+
+h1 {
+	color: #6B4800;
+	margin-bottom: 20px;
+}
+
+#uitleg {
+	display: inline-block;
+	text-align: left;
+	padding-left: 35px;
+	width: 700px;
+	border-color: #402B00;
+	border-style: dotted;
+	border-width: 0 2px;
+	border-radius: 12%;
+}
+
+span.discs {
+	max-width: 95%;
+	background-color: grey;
+	display: inline-block;
+	border-top: 1px solid white;
+	box-shadow: inset 15px 0 10px -5px rgba(0,0,0,0.4), inset -11px 0 10px -5px rgba(255,255,255,0.8);
+	border-radius: 2px;
+}
+
+span.sticks {
+	width: 16px;
+	display: inline-block;
+	background-color: brown;
+	border-top: 1px solid brown;
+	box-shadow: inset 7px 0 10px -5px rgba(0,0,0,0.4), inset -5px 0 10px -5px rgba(255,255,255,0.8);
+}
+
+table button {
+	width: 98%;
+	height: 95%;
+	line-height: 1.2;
+	border-width: 8px 1px 1px 1px;
+	border-color: silver black black black;
+	cursor: pointer;
+}
+
+input[type="number"] {
+	width: 40px;
+}
+
+#back {
+	width: 50px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+}
