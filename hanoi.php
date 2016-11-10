@@ -25,7 +25,7 @@ $_SESSION['hanoi'] = $hanoi;
 </head>
 
 <body>
-<a href="/minispellen-drieluik">
+<a href="./">
 	<img id="back" src="style/images/terug.png" alt="Terug naar luik" title="Terug naar luik">
 </a>
 <h1>Toren van Hanoi</h1>

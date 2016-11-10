@@ -28,7 +28,7 @@ $_SESSION['tictactoe'] = serialize($tictactoe);
 	<link rel="stylesheet" type="text/css" href="style/vijfopeenei-style.css">
 </head>
 <body>
-<a href="/minispellen-drieluik">
+<a href="./">
 	<img id="back" src="style/images/terug.png" alt="Terug naar luik" title="Terug naar luik">
 </a>
 <section>

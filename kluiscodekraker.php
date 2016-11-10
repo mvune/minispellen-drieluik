@@ -10,7 +10,7 @@ $mastermind->playGame($_POST);
 <script src="javascript/draai-wiel.js"></script>
 
 <body>
-<a href="/minispellen-drieluik">
+<a href="./">
 	<img id="back" src="style/images/terug.png" alt="Terug naar luik" title="Terug naar luik">
 </a>
 <div id="container">
