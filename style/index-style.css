@@ -52,18 +52,18 @@ a:active, a:focus {
 
 #links {
 	transform: rotateY(10deg) rotateX(-6deg);
-	background-image: url('images/kluis.jpg');
+	background-image: url('images/kluis.JPG');
 }
 
 #midden {
 	width: 37%;
 	transform: translateZ(-20px) rotateX(-4deg) translateY(-2px);
-	background-image: url('images/ei.jpg');
+	background-image: url('images/ei.JPG');
 }
 
 #rechts {
 	transform: rotateY(-10deg) rotateX(-6deg);
-	background-image: url('images/toren.jpg');
+	background-image: url('images/toren.JPG');
 }
 
 .luik:hover {
