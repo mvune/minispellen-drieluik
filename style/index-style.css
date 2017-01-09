@@ -1,83 +1,83 @@
 html {
-	font-family: 'Trebuchet MS', Helvetica, Sans-serif;
-	height: 100%;
+    font-family: 'Trebuchet MS', Helvetica, Sans-serif;
+    height: 100%;
 }
 
 body {
-	margin: 0;
-	height: 100%;
-	background: radial-gradient(white, lightgreen 80%, black);
-	background-size: 100% 8px;
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(white, lightgreen 80%, black);
+    background-size: 100% 8px;
 }
 
 a:active, a:focus {
-	outline: 0;
+    outline: 0;
 }
 
 #drieluik {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 800px;
-	height: 400px;
-	perspective: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
+    perspective: 300px;
 }
 
 .luik {
-	display: inline-block;
-	width: 26%;
-	height: 100%;
-	margin-right: 20px;
-	border: 2px solid grey;
-	box-shadow: 2px -2px 9px darkslategrey;
-	background-size: cover;
-	font-size: 1.2em;
+    display: inline-block;
+    width: 26%;
+    height: 100%;
+    margin-right: 20px;
+    border: 2px solid grey;
+    box-shadow: 2px -2px 9px darkslategrey;
+    background-size: cover;
+    font-size: 1.2em;
 }
 
 .top-luik {
-	position: absolute;
-	top: -35px;
-	display: block;
-	width: 100%;
-	font-weight: bold;
-	text-align: center;
-	color: #411A54;
+    position: absolute;
+    top: -35px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #411A54;
 }
 
 #midden > .top-luik {
-	top: -40px;
-	font-size: 1.15em;
+    top: -40px;
+    font-size: 1.15em;
 }
 
 #links {
-	transform: rotateY(10deg) rotateX(-6deg);
-	background-image: url('images/kluis.JPG');
+    transform: rotateY(10deg) rotateX(-6deg);
+    background-image: url('images/kluis.JPG');
 }
 
 #midden {
-	width: 37%;
-	transform: translateZ(-20px) rotateX(-4deg) translateY(-2px);
-	background-image: url('images/ei.JPG');
+    width: 37%;
+    transform: translateZ(-20px) rotateX(-4deg) translateY(-2px);
+    background-image: url('images/ei.JPG');
 }
 
 #rechts {
-	transform: rotateY(-10deg) rotateX(-6deg);
-	background-image: url('images/toren.JPG');
+    transform: rotateY(-10deg) rotateX(-6deg);
+    background-image: url('images/toren.JPG');
 }
 
 .luik:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 #links:hover {
-	transform: rotateY(10deg) rotateX(-6deg) scale(1.01);
+    transform: rotateY(10deg) rotateX(-6deg) scale(1.01);
 }
 
 #midden:hover {
-	transform: translateZ(-20px) rotateX(-4deg) translateY(-2px) scale(1.01);
+    transform: translateZ(-20px) rotateX(-4deg) translateY(-2px) scale(1.01);
 }
 
 #rechts:hover {
-	transform: rotateY(-10deg) rotateX(-6deg) scale(1.01);
+    transform: rotateY(-10deg) rotateX(-6deg) scale(1.01);
 }
