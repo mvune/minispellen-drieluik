@@ -67,8 +67,8 @@ class Mastermind {
      *
      * $green:  Aantal juist getallen op de juiste plek in $secret.
      * $yellow: Aantal getallen dat wel voorkomt, maar niet op de juiste 
-     *                  plek staat in $secret.
-     * $red:        Aantal overige getallen.
+     *          plek staat in $secret.
+     * $red:    Aantal overige getallen.
      *
      * Gooit vervolgens de input als string, samen met de waarden van 
      * $green, $yellow en $red, in een array in de $guessed_list.
