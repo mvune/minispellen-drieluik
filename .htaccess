@@ -1,6 +1,20 @@
+Header set Strict-Transport-Security "max-age=300; includeSubDomains" env=HTTPS
+
 Options -Indexes
 
 RewriteEngine On
-RewriteRule ^(.*)$	$1	[NC,C]
+RewriteRule ^(.*)$  $1  [NC,C]
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$	$1.php	[NC,L]
+RewriteRule ^(.*)$  $1.php  [NC]
+
+# Root domain to www
+RewriteCond %{HTTP_HOST} ^([^.]+\.[^.]+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [NE,R=301,L]
+
+# Left trim www for subdomains
+RewriteCond %{HTTP_HOST} ^www\.(([^.]+\.){2,}[^.]+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [NE,R=301,L]
+
+# To https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NE,R=301,L]
