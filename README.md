@@ -6,4 +6,4 @@ Drie minispellen, te weten:
 * Vijf op een ei (vijf-op-een-rij, maar dan op een ei)
 * Toren van Hanoi (gewoon die toren)
 
-Gehost op [drieluik.xyz](http://www.drieluik.xyz/).
+Gehost op [drieluik.online](https://www.drieluik.online).
